@@ -31,7 +31,6 @@
 		28D7ACF80DDB3853001CB0EB /* ExproViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ExproViewController.m */; };
 		4567105F118A2835009CD68B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4567105E118A2835009CD68B /* Default.png */; };
 		45671061118A2840009CD68B /* ExproSoft.png in Resources */ = {isa = PBXBuildFile; fileRef = 45671060118A2840009CD68B /* ExproSoft.png */; };
-		45CB4E5D118AF36500E2CBAF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45CB4E5C118AF36500E2CBAF /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +58,6 @@
 		32CA4F630368D1EE00C91783 /* ExproBase_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExproBase_Prefix.pch; sourceTree = "<group>"; };
 		4567105E118A2835009CD68B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		45671060118A2840009CD68B /* ExproSoft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExproSoft.png; sourceTree = "<group>"; };
-		45CB4E5C118AF36500E2CBAF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Icons/Default.png; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* ExproBase-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ExproBase-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +118,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				45CB4E5C118AF36500E2CBAF /* Default.png */,
 				45671060118A2840009CD68B /* ExproSoft.png */,
 				4567105E118A2835009CD68B /* Default.png */,
 				2899E5210DE3E06400AC0155 /* ExproViewController.xib */,
@@ -167,7 +164,11 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ExproBase" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,7 +188,6 @@
 				2899E5220DE3E06400AC0155 /* ExproViewController.xib in Resources */,
 				4567105F118A2835009CD68B /* Default.png in Resources */,
 				45671061118A2840009CD68B /* ExproSoft.png in Resources */,
-				45CB4E5D118AF36500E2CBAF /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
